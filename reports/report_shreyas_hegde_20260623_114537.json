@@ -1,0 +1,79 @@
+{
+  "report_id": "ANTIGRAV-20260623_114537",
+  "generated_at": "2026-06-23T11:45:37.014861",
+  "customer": {
+    "name": "Shreyas Hegde",
+    "dob": "15-01-1992",
+    "age": 34,
+    "gender": "Male",
+    "mobile": "9876543210",
+    "email": "shreyas.hegde@example.com"
+  },
+  "current_policy": {
+    "insurer": "Apex General Insurance",
+    "product": "APEX SECURE INDIVIDUAL HEALTH POLICY",
+    "policy_number": "APX/HLTH/IND/2026/884729",
+    "sum_insured": 500000,
+    "ncb": 50000,
+    "total_coverage": 550000,
+    "premium_net": 14250,
+    "premium_gross": 16815,
+    "start_date": "24-06-2026",
+    "end_date": "23-06-2027",
+    "years_covered": 2,
+    "pre_existing_diseases": [
+      "Hypertension"
+    ],
+    "ped_waiting_months": 36,
+    "family_members": []
+  },
+  "recommendation": {
+    "recommended_plan": "Prudential Active Health Plus",
+    "plan_id": "PRU-ACTIVE-PLUS",
+    "recommended_sum_insured": 500000,
+    "estimated_premium_gross": 14160,
+    "estimated_premium_net": 12000,
+    "annual_savings": 2655,
+    "match_score": 80,
+    "reasons": [
+      "Covers base SI of 500,000 INR",
+      "PED waiting period credited: 24 months done, only 12 months remaining",
+      "Premium savings of \u20b92,655/year",
+      "Restore benefit \u2014 sum insured refilled after major claim",
+      "Domiciliary hospitalization covered",
+      "Better room rent limit"
+    ],
+    "verdict": "STRONGLY RECOMMENDED \u2014 Better coverage at lower premium",
+    "plan_highlights": [
+      "Higher room rent limit (2% SI/day)",
+      "Restore benefit \u2014 SI refilled after claim",
+      "Domiciliary hospitalization covered",
+      "Maternity add-on available"
+    ],
+    "all_options": [
+      {
+        "plan_name": "Prudential Active Health Plus",
+        "recommended_si": 500000,
+        "estimated_premium": 14160,
+        "score": 80
+      },
+      {
+        "plan_name": "Prudential Elite Health Shield",
+        "recommended_si": 1000000,
+        "estimated_premium": 34504,
+        "score": 75
+      },
+      {
+        "plan_name": "Prudential Active Health Basic",
+        "recommended_si": 500000,
+        "estimated_premium": 11210,
+        "score": 60
+      }
+    ]
+  },
+  "portability_eligibility": {
+    "eligible": true,
+    "irdai_rule": "Apply 45 days before expiry",
+    "ped_credit_months": 24
+  }
+}

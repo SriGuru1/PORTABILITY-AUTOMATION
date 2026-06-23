@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prudential Portability Report — Shreyas Hegde</title>
+<style>
+  body { font-family: 'Segoe UI', sans-serif; background: #f4f6f9; color: #222; margin: 0; padding: 20px; }
+  .container { max-width: 900px; margin: auto; }
+  .header { background: linear-gradient(135deg, #003087, #0060b1); color: white; padding: 30px; border-radius: 12px; margin-bottom: 20px; }
+  .header h1 { margin: 0; font-size: 24px; }
+  .header p { margin: 5px 0 0; opacity: 0.85; }
+  .card { background: white; border-radius: 10px; padding: 24px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+  .card h2 { margin-top: 0; color: #003087; font-size: 18px; border-bottom: 2px solid #e0e7ff; padding-bottom: 10px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .field { background: #f8f9ff; padding: 10px 14px; border-radius: 6px; }
+  .field label { font-size: 11px; text-transform: uppercase; color: #666; display: block; margin-bottom: 3px; }
+  .field span { font-weight: 600; font-size: 15px; }
+  .verdict { padding: 16px 20px; border-radius: 8px; font-weight: 700; font-size: 16px; text-align: center; margin: 16px 0; }
+  .verdict.recommended { background: #d4edda; color: #155724; border: 2px solid #28a745; }
+  .verdict.consider { background: #fff3cd; color: #856404; border: 2px solid #ffc107; }
+  .verdict.review { background: #f8d7da; color: #721c24; border: 2px solid #dc3545; }
+  .comparison-table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+  .comparison-table th { background: #003087; color: white; padding: 10px 14px; text-align: left; }
+  .comparison-table td { padding: 10px 14px; border-bottom: 1px solid #eee; }
+  .comparison-table tr:nth-child(even) { background: #f8f9ff; }
+  .better { color: #155724; font-weight: 600; }
+  .tag { display: inline-block; background: #e0e7ff; color: #003087; padding: 3px 10px; border-radius: 20px; font-size: 12px; margin: 3px; }
+  .reasons li { margin-bottom: 6px; }
+  .savings-box { background: linear-gradient(135deg, #d4edda, #c3e6cb); border-radius: 8px; padding: 16px; text-align: center; }
+  .savings-box .amount { font-size: 32px; font-weight: 800; color: #155724; }
+  .footer { text-align: center; color: #888; font-size: 12px; margin-top: 30px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>🏥 Prudential Health — Portability Report</h1>
+    <p>Generated on 23 Jun 2026, 11:32 AM | Policy Ref: APX/HLTH/IND/2026/884729</p>
+  </div>
+
+  <div class="card">
+    <h2>👤 Customer Profile</h2>
+    <div class="grid">
+      <div class="field"><label>Name</label><span>Shreyas Hegde</span></div>
+      <div class="field"><label>Date of Birth</label><span>15-01-1992</span></div>
+      <div class="field"><label>Age / Gender</label><span>34 / Male</span></div>
+      <div class="field"><label>Mobile</label><span>9876543210</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>📄 Current Policy</h2>
+    <div class="grid">
+      <div class="field"><label>Insurer</label><span>Apex General Insurance</span></div>
+      <div class="field"><label>Policy Number</label><span>APX/HLTH/IND/2026/884729</span></div>
+      <div class="field"><label>Sum Insured</label><span>₹500,000</span></div>
+      <div class="field"><label>No Claim Bonus</label><span>₹50,000</span></div>
+      <div class="field"><label>Total Coverage</label><span>₹550,000</span></div>
+      <div class="field"><label>Annual Premium</label><span>₹16,815</span></div>
+      <div class="field"><label>Policy Expiry</label><span>23-06-2027</span></div>
+      <div class="field"><label>Years Covered</label><span>2 year(s)</span></div>
+    </div>
+    <div style='margin-top:12px'><label style='font-size:11px;text-transform:uppercase;color:#666'>Pre-Existing Diseases</label><div style='margin-top:6px'><span class="tag">Hypertension</span></div></div>
+  </div>
+
+  <div class="card">
+    <h2>⭐ Recommended: Prudential Active Health Plus</h2>
+    <div class="recommended verdict">STRONGLY RECOMMENDED — Better coverage at lower premium</div>
+    <div class="savings-box"><div style="font-size:13px;color:#155724;margin-bottom:4px">Annual Premium Savings</div><div class="amount">₹2,655</div></div>
+    <table class="comparison-table">
+      <tr><th>Feature</th><th>Current Policy</th><th>Prudential Prudential Active Health Plus</th></tr>
+      <tr><td>Sum Insured</td><td>₹500,000</td><td><span class="better">₹500,000</span></td></tr>
+<tr><td>Annual Premium (incl. GST)</td><td>₹16,815</td><td><span class="better">₹14,160</span></td></tr>
+<tr><td>PED Waiting Period</td><td>36 months</td><td><span class="better">Credited — reduced wait</span></td></tr>
+<tr><td>Pre-Hospitalization</td><td>60 days</td><td>60 days</td></tr>
+<tr><td>Post-Hospitalization</td><td>90 days</td><td>90 days</td></tr>
+    </table>
+    <h3>Why this plan?</h3>
+    <ul class="reasons">
+      <li>✅ Covers base SI of 500,000 INR</li>
+<li>✅ PED waiting period credited: 24 months done, only 12 months remaining</li>
+<li>✅ Premium savings of ₹2,655/year</li>
+<li>✅ Restore benefit — sum insured refilled after major claim</li>
+<li>✅ Domiciliary hospitalization covered</li>
+<li>✅ Better room rent limit</li>
+    </ul>
+    <h3>Plan Highlights</h3>
+    <span class="tag">✨ Higher room rent limit (2% SI/day)</span><span class="tag">✨ Restore benefit — SI refilled after claim</span><span class="tag">✨ Domiciliary hospitalization covered</span><span class="tag">✨ Maternity add-on available</span>
+  </div>
+
+  <div class="card">
+    <h2>📊 All Available Options</h2>
+    <table class="comparison-table">
+      <tr><th>Plan</th><th>Sum Insured</th><th>Est. Premium/yr</th><th>Match Score</th></tr>
+      <tr><td>Prudential Active Health Plus</td><td>₹500,000</td><td>₹14,160</td><td>80/100</td></tr>
+<tr><td>Prudential Elite Health Shield</td><td>₹1,000,000</td><td>₹34,504</td><td>75/100</td></tr>
+<tr><td>Prudential Active Health Basic</td><td>₹500,000</td><td>₹11,210</td><td>60/100</td></tr>
+    </table>
+  </div>
+
+  <div class="footer">
+    AntiGravity Agent — Powered by Google ADK &amp; Claude AI<br>
+    ⚠️ Premiums are indicative. Final premium subject to Prudential underwriting.
+  </div>
+</div>
+</body>
+</html>

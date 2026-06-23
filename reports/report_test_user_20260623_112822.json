@@ -1,0 +1,77 @@
+{
+  "report_id": "ANTIGRAV-20260623_112822",
+  "generated_at": "2026-06-23T11:28:22.361641",
+  "customer": {
+    "name": "Test User",
+    "dob": null,
+    "age": null,
+    "gender": null,
+    "mobile": null,
+    "email": null
+  },
+  "current_policy": {
+    "insurer": "Test Co",
+    "product": null,
+    "policy_number": "TEST/001",
+    "sum_insured": 500000,
+    "ncb": 0,
+    "total_coverage": 500000,
+    "premium_net": null,
+    "premium_gross": 18000,
+    "start_date": null,
+    "end_date": null,
+    "years_covered": 2,
+    "pre_existing_diseases": null,
+    "ped_waiting_months": 36,
+    "family_members": null
+  },
+  "recommendation": {
+    "recommended_plan": "Prudential Active Health Plus",
+    "plan_id": "PRU-ACTIVE-PLUS",
+    "recommended_sum_insured": 500000,
+    "estimated_premium_gross": 14160,
+    "estimated_premium_net": 12000,
+    "annual_savings": 3840,
+    "match_score": 80,
+    "reasons": [
+      "Covers base SI of 500,000 INR",
+      "PED waiting period credited: 24 months done, only 12 months remaining",
+      "Premium savings of \u20b93,840/year",
+      "Restore benefit \u2014 sum insured refilled after major claim",
+      "Domiciliary hospitalization covered",
+      "Better room rent limit"
+    ],
+    "verdict": "STRONGLY RECOMMENDED \u2014 Better coverage at lower premium",
+    "plan_highlights": [
+      "Higher room rent limit (2% SI/day)",
+      "Restore benefit \u2014 SI refilled after claim",
+      "Domiciliary hospitalization covered",
+      "Maternity add-on available"
+    ],
+    "all_options": [
+      {
+        "plan_name": "Prudential Active Health Plus",
+        "recommended_si": 500000,
+        "estimated_premium": 14160,
+        "score": 80
+      },
+      {
+        "plan_name": "Prudential Elite Health Shield",
+        "recommended_si": 1000000,
+        "estimated_premium": 34504,
+        "score": 75
+      },
+      {
+        "plan_name": "Prudential Active Health Basic",
+        "recommended_si": 500000,
+        "estimated_premium": 11210,
+        "score": 60
+      }
+    ]
+  },
+  "portability_eligibility": {
+    "eligible": true,
+    "irdai_rule": "Apply 45 days before expiry",
+    "ped_credit_months": 24
+  }
+}
